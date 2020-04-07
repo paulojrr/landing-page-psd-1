@@ -1,3 +1,8 @@
+body{
+   
+
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300
@@ -6,7 +11,7 @@ p {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    
+
     
 }
 
@@ -23,6 +28,9 @@ a:hover {
 nav {
     display: flex;
     justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 /* nav syle */
@@ -36,11 +44,21 @@ nav {
 .wrapper-home {
     width: 100%;
     height: 600px;
-    background-color: black;
+    background-image: url(../img/bg-home.png);
+    background-size: cover;
+
+    
+}
+
+.fadeout:hover {
+    transition: 4s;
+    background: rgba(0, 0, 0, .6)
+        url(../img/bg-home.png);
+        background-blend-mode: darken;
+        background-size: cover;
 }
 
 .logo {
-    margin-top: 10px;
     font-size: 30px;
     font-weight: bolder;
     color: white;
@@ -49,8 +67,6 @@ nav {
 
 .nav ul {
     display: flex;
-    padding-top: 15px;
- 
 }
 
 .nav ul li {
@@ -92,12 +108,75 @@ nav {
 }
 
 .button button {
-    width: 100px;
-    height: 25px;
+    width: 160px;
+    height: 35px;
     color: white;
     background-color: #2ebaef;
     border-radius: 40px;
     border: none;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
+}
+
+/* End wrapper center style */
+
+/* Start services style */
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold
+}
+
+.our-services {
+    font-size: 35px;
+    width: 100%;
+    height: 90px;
+}
+
+.wrapper-service {
+    height: 800px;
+    
+}
+
+.container-services {
+    display: flex;
+    margin-top: 60px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.service-box {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.service-box img {
+    width: 40px;
+    height: 40px;
+}
+
+.service-box h3 {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.service-box p {
+    color: #767676;
+    font-size: 14px;
+}
+
+.button button{
+    margin-top: 50px;
 }
