@@ -14,7 +14,7 @@
 
 <body>
     <!-- Start home page -->
-    <div class="wrapper-home fadeout">
+    <div class="wrapper-home fadeout" id="home">
 
         <nav>
             <div class="logo">
@@ -22,10 +22,10 @@
             </div>
             <div class="nav">
                 <ul>
-                    <li><a href="#">Homepage</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#home">Homepage</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">About us</a></li>
+                    <li><a href="#contact">Contact us</a></li>
                 </ul>
             </div>
         </nav>
@@ -47,7 +47,7 @@
     <!-- End home page -->
 
     <!-- Start services page -->
-    <div class="wrapper-service">
+    <div class="wrapper-service" id="services">
         <div class="our-services flex-box">
             <h2>Our services</h2>
         </div>
@@ -104,7 +104,6 @@
                 <div class="button">
                     <button>Show more</button>
                 </div>
-
             </div>
         </div>
 
@@ -122,8 +121,6 @@
                     <button>Show more</button>
                 </div>
             </div>
-
-
         </div>
     </div>
     <!-- End second service page -->
@@ -166,7 +163,7 @@
     <!-- Start third service page -->
 
     <!-- Start team page -->
-    <div class="wrapper-team">
+    <div class="wrapper-team" id="team">
         <div class="container-team">
             <div class="phrase-team">
                 <h2>Check our <span class="blue">awesome team</span></h2>
@@ -176,7 +173,7 @@
 
                 <div class="profile1 align-profile ">
                     <div class="profile-img">
-                        <img src ="./img/profile_1.png" alt="profile imagem 1">
+                        <img src="./img/profile_1.png" alt="profile imagem 1">
                     </div>
                     <h4>Jhohn Doe</h4>
                     <p>Ceo&Founder</p>
@@ -218,13 +215,71 @@
                     </div>
                 </div>
             </div>
-            <!-- End team page -->
-
         </div>
     </div>
+    <!-- End team page -->
 
+    <!-- Start contact page -->
+    <div class="wrapper-contact " id="contact">
+        <div class="contact">
+            <div class="address">
+                <h2>Contact with us</h2>
 
+                <div class="fone-email">
+                    <p>Loremipsum Street 15/18 / Kasicen. Russia</p>
+                    <h4>Phone: <span class="blue">(+55) 9954 9563</span></h4>
+                    <h4>E-mail: <span class="blue">contact@contact.com</span></h4>
+                </div>
+            </div>
 
+            <div class="social-media">
+                <div class="twitter">
+                    <a href="#"><img src="./img/contact-twitter.png" alt="link twitter"></a>
+                </div>
+                <div class="facebook">
+                    <a href="#"><img src="./img/contact-face.png" alt="link facebook"></a>
+                </div>
+                <div class="pinterest">
+                    <a href="#"><img src="./img/contact-pinterest.png" alt="link pinterest"></a>
+                </div>
+                <div class="google">
+                    <a href="#"><img src="./img/contact-google.png" alt="link google"></a>
+                </div>
+                <div class="email">
+                    <a href="#"><img src="./img/contact-email.png" alt="link email"></a>
+                </div>
+            </div>
+        </div>
+
+        <form class="form">
+            <input class="input" type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your e-mail address">
+            <textarea name="text" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+            <button class="button-form">Send message</button>
+
+        </form>
+    </div>
+    <!-- End contact page -->
+
+    <!-- Start footer page -->
+    <div class="wrapper-footer">
+        <div class="container-footer">
+            <div class="nav-footer">
+                <ul>
+                    <li><a href="#home">Homepage</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">About us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright&copy2020. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    <!-- End footer page -->
 </body>
 
 </html>
