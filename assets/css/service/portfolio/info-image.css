@@ -1,0 +1,8 @@
+.info__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(/assets/img/bg-portfolio.png);
+    width: 50%;
+    height: 25rem;
+}

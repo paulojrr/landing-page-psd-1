@@ -1,0 +1,6 @@
+.portfolio-info {
+    display: flex;
+    height: 25rem;
+    justify-content: flex-start;
+    width: 100%;
+}

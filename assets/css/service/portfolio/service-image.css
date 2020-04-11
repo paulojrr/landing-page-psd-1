@@ -1,0 +1,25 @@
+.service__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.service__image--1 {
+    background-image: url(/assets/img/portfolio/portfolio-img-1.png);
+
+}
+.service__image--2 {
+    background-image: url(/assets/img/portfolio/portfolio-img-2.png);
+}
+
+.service__image--3 {
+    background-image: url(/assets/img/portfolio/portfolio-img-3.png);
+}
+
+.service__image--4 {
+    background-image: url(/assets/img/portfolio/portfolio-img-4.png);
+}    
+
+

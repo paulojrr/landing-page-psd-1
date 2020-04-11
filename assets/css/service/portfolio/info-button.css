@@ -1,0 +1,22 @@
+.info__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ 
+ .info__button button {
+     background-color: #2ebaef;
+     border-radius: 40px;
+     border: none;
+     color: white;
+     height: 2.1875rem;
+     width: 10rem;  
+ }
+ 
+ .info__button button:hover {
+     cursor: pointer;
+ }
+ 
+ .info__button button:focus {
+     outline: none;
+ }
