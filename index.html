@@ -18,6 +18,15 @@
     <link rel="stylesheet" href="assets/css/home/banner-title.css">
     <link rel="stylesheet" href="assets/css/home/banner-subTitle.css">
     <link rel="stylesheet" href="assets/css/home/banner-button.css">
+    <link rel="stylesheet" href="assets/css/service/service-title.css">
+    <link rel="stylesheet" href="assets/css/service/service-line.css">
+    <link rel="stylesheet" href="assets/css/service/description/description-container.css">
+    <link rel="stylesheet" href="assets/css/service/description/description.css">
+    <link rel="stylesheet" href="assets/css/service/description/description-image.css">
+    <link rel="stylesheet" href="assets/css/service/description/description-title.css">
+    <link rel="stylesheet" href="assets/css/service/description/description-text.css">
+    <link rel="stylesheet" href="assets/css/service/description/description-button.css">
+    
 
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -25,7 +34,8 @@
 </head>
 
 <body>
-    <div class="wrapper-home">
+    <!-- Start home page -->
+    <div class="wrapper-home" id="home">
         <!-- Start header -->
         <header class="header">
             <h1 class="header__logo">Lorem</h1>
@@ -50,121 +60,133 @@
         </main>
         <!-- End main-->
     </div>
+    <!-- End home page -->
 
     <!-- Start services page -->
-    <div class="wrapper-service" id="services">
-        <div class="our-services flex-box">
-            <h2>Our services</h2>
-        </div>
+    <section class="wrapper-service" id="services">
 
+        <h2 class="service__title">Our services</h2>
         <!-- line -->
-        <hr width="80%" color="#ECECEC">
+        <hr class="service__line">
 
-        <div class="container-services">
+        <!-- Start description container -->
+        <div class="wrapper-container-services-description">
+            <div class="container-description">
+                <div class="description">
+                    <img class="description__image" src="/assets/img/description/design.png"
+                        alt="Responsive design image">
+                    <h3 class="description__title">Responsive Design</h3>
+                    <p class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id
+                        sapien non erat sollicitudin
+                        malesuada. In eu condimentum magna, eu laoreet augue.</p>
+                </div>
 
-            <div class="service-box">
-                <img src="./img/design.png" alt="design description">
-                <h3>Responsive Design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id sapien non erat sollicitudin
-                    malesuada. In eu condimentum magna, eu laoreet augue.</p>
+                <div class="description">
+                    <img class="description__image" src="/assets/img/description/secutiry.png"
+                        alt="Endless security image">
+                    <h3 class="description__title">Endless security</h3>
+                    <p class="description__text">Ut non lectus sed lorem posuere vestibulum eget vel tortor. Donec in
+                        massa in mi sagittis efficitur.
+                        Morbi vitae placerat leo. Suspendisse nec aliquet urna. </p>
+                </div>
+
+                <div class="description">
+                    <img class="description__image" src="/assets/img/description/features.png"
+                        alt="Incredible features image">
+                    <h3 class="description__title">Incredible features</h3>
+                    <p class="description__text">Proin interdum sem nec bibendum cursus. Praesent efficitur turpis non
+                        dolor viverra, eget aliquet est
+                        lacinia. Sed ac diam velit. Donec luctus arcu ut dolor suscipit.</p>
+                </div>
+
+                <div class="description">
+                    <img class="description__image" src="/assets/img/description/ideas.png" alt="Fresh ideas image">
+                    <h3 class="description__title">Fresh ideas</h3>
+                    <p class="description__text">Aliquam venenatis diam id velit consectetur, vel viverra nulla
+                        condimentum. Duis elementum nibh nec
+                        odio
+                        vulputate posuere sagittis quis est. Integer eu nisi vulputate.</p>
+                </div>
             </div>
-
-            <div class="service-box">
-                <img src="./img/secutiry.png" alt="security description">
-                <h3>Endless security</h3>
-                <p>Ut non lectus sed lorem posuere vestibulum eget vel tortor. Donec in massa in mi sagittis efficitur.
-                    Morbi vitae placerat leo. Suspendisse nec aliquet urna. </p>
+            <div class="description__button">
+                <button>Check Services</button>
             </div>
-
-            <div class="service-box">
-                <img src="./img/features.png" alt="features description">
-                <h3>Incredible features</h3>
-                <p>Proin interdum sem nec bibendum cursus. Praesent efficitur turpis non dolor viverra, eget aliquet est
-                    lacinia. Sed ac diam velit. Donec luctus arcu ut dolor suscipit.</p>
-            </div>
-
-            <div class="service-box">
-                <img src="./img/ideas.png" alt="ideas description">
-                <h3>Fresh ideas</h3>
-                <p>Aliquam venenatis diam id velit consectetur, vel viverra nulla condimentum. Duis elementum nibh nec
-                    odio
-                    vulputate posuere sagittis quis est. Integer eu nisi vulputate.</p>
-            </div>
-
         </div>
-        <div class="button flex-box" id="button-service">
-            <button>Check Services</button>
-        </div>
-    </div>
-    <!-- End services page -->
+        <!-- End description container -->
 
-    <!-- Start second service page -->
-    <div class="container-service-two shape-blue-bg">
 
-        <div class="wrapper-top-service-two">
-            <div class="top-service-two service-two-box ">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                <p>Nunc ultrices eu orci eget mattis. Donec finibus justo eu justo ullamcorper tristique. Phasellus sit
-                    amet viverra felis. Donec malesuada feugiat consequat.</p>
-                <div class="button">
-                    <button>Show more</button>
+
+        <!-- Start second service page -->
+        <div class="container-service-two shape-blue-bg">
+
+            <div class="wrapper-top-service-two">
+                <div class="top-service-two service-two-box ">
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                    <p>Nunc ultrices eu orci eget mattis. Donec finibus justo eu justo ullamcorper tristique. Phasellus
+                        sit
+                        amet viverra felis. Donec malesuada feugiat consequat.</p>
+                    <div class="button">
+                        <button>Show more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-service-two service-two-box">
+
+                <div class="service-two-bottom-img">
+                    <img src="./img/smart.png" alt="imagem services">
+                </div>
+
+                <div class="bottom-service-right service-two-box">
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                    <p>Nunc ultrices eu orci eget mattis. Donec finibus justo eu justo ullamcorper tristique. Phasellus
+                        sit
+                        amet viverra felis. Donec malesuada feugiat consequat.</p>
+                    <div class="button button-white">
+                        <button>Show more</button>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- End second service page -->
 
-        <div class="bottom-service-two service-two-box">
+        <!-- Start third service page -->
+        <div class="container-service-three">
+            <div class="container-top">
+                <div class="img-top">
+                    <img src="./img/bg-top-left-serv3.png" alt="background-left">
+                </div>
+                <div class="info-top">
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                    <p>Nunc ultrices eu orci eget mattis. Donec finibus justo eu justo ullamcorper tristique. Phasellus
+                        sit
+                        amet viverra felis. Donec malesuada feugiat consequat.</p>
+                    <div class="button">
+                        <button>Learn more</button>
+                    </div>
 
-            <div class="service-two-bottom-img">
-                <img src="./img/smart.png" alt="imagem services">
+                </div>
             </div>
 
-            <div class="bottom-service-right service-two-box">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                <p>Nunc ultrices eu orci eget mattis. Donec finibus justo eu justo ullamcorper tristique. Phasellus sit
-                    amet viverra felis. Donec malesuada feugiat consequat.</p>
-                <div class="button button-white">
-                    <button>Show more</button>
+            <div class="container-bottom">
+                <div class="info-bottom-1 bottom-box">
+                    <h4>Lorem ipsum <br> dolor sit amet.</h4>
+                </div>
+
+                <div class="info-bottom-2 bottom-box">
+                    <h4>Donec commodo <br> egestas porttitor.</h4>
+                </div>
+
+                <div class="info-bottom-3 bottom-box">
+                    <h4>Aenean ut aliquam <br> sapien augue.</h4>
+                </div>
+
+                <div class="info-bottom-4 bottom-box">
+                    <h4>Maximus ut ultricies <br> tempor ex.</h4>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End second service page -->
-
-    <!-- Start third service page -->
-    <div class="container-service-three">
-        <div class="container-top">
-            <div class="img-top">
-                <img src="./img/bg-top-left-serv3.png" alt="background-left">
-            </div>
-            <div class="info-top">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                <p>Nunc ultrices eu orci eget mattis. Donec finibus justo eu justo ullamcorper tristique. Phasellus sit
-                    amet viverra felis. Donec malesuada feugiat consequat.</p>
-                <div class="button">
-                    <button>Learn more</button>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="container-bottom">
-            <div class="info-bottom-1 bottom-box">
-                <h4>Lorem ipsum <br> dolor sit amet.</h4>
-            </div>
-
-            <div class="info-bottom-2 bottom-box">
-                <h4>Donec commodo <br> egestas porttitor.</h4>
-            </div>
-
-            <div class="info-bottom-3 bottom-box">
-                <h4>Aenean ut aliquam <br> sapien augue.</h4>
-            </div>
-
-            <div class="info-bottom-4 bottom-box">
-                <h4>Maximus ut ultricies <br> tempor ex.</h4>
-            </div>
-        </div>
-    </div>
+    </section>
     <!-- Start third service page -->
 
     <!-- Start team page -->
