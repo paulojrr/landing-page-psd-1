@@ -4,47 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/header/header.css">
+    <link rel="stylesheet" href="assets/css/header/header-logo.css">
+    <link rel="stylesheet" href="assets/css/header/nav-item.css">
+    <link rel="stylesheet" href="assets/css/header/nav-link.css">
+    <link rel="stylesheet" href="assets/css/header/nav-list.css">
+    <link rel="stylesheet" href="assets/css/wrapper-home.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/home/banner.css">
+    <link rel="stylesheet" href="assets/css/home/banner-title.css">
+    <link rel="stylesheet" href="assets/css/home/banner-subTitle.css">
+    <link rel="stylesheet" href="assets/css/home/banner-button.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Lorem</title>
 </head>
 
 <body>
-    <!-- Start home page -->
-    <div class="wrapper-home fadeout" id="home">
-
-        <nav>
-            <div class="logo">
-                <h1>Lorem</h1>
-            </div>
-            <div class="nav">
-                <ul>
-                    <li><a href="#home">Homepage</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#team">About us</a></li>
-                    <li><a href="#contact">Contact us</a></li>
+    <div class="wrapper-home">
+        <!-- Start header -->
+        <header class="header">
+            <h1 class="header__logo">Lorem</h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#home">Homepage</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#team">About us</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#contact">Contact us</a></li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </header>
+        <!-- End header -->
 
-        <div class="wrapper-center flex-box">
-            <div class="main-phrase">
-                <h1><span class="blue">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-            </div>
-
-            <div class="second-phrase">
-                <p>Fusce non tortor id diam aliquam fringilla.</p>
-            </div>
-
-            <div class="button">
-                <button>Learn more</button>
-            </div>
-        </div>
+        <!-- Start main -->
+        <main class="main">
+            <section class="banner">
+                <h1 class="banner__title"><span>Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                <p class="banner__subTitle">Fusce non tortor id diam aliquam fringilla elementum semper.</p>
+                <button class="banner__button">Learn more</button>
+            </section>
+        </main>
+        <!-- End main-->
     </div>
-    <!-- End home page -->
 
     <!-- Start services page -->
     <div class="wrapper-service" id="services">

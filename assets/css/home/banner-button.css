@@ -1,0 +1,17 @@
+.banner__button {
+    background-color: #2ebaef;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    height: 2.1875rem;
+    margin-top: 10px;
+    width: 10rem;  
+}  
+
+.banner__button:focus {
+    outline: none;
+}
+
+.banner__button:hover {
+    cursor: pointer;
+}
