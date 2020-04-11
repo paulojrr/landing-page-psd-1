@@ -1,0 +1,8 @@
+.wrapper-info {
+    display: flex;
+    justify-content: space-around;
+    height: 50rem;
+    background-image: url(/assets/img/bg-info.png);
+    background-size: 100% 56.25rem;
+    background-repeat: no-repeat;
+}

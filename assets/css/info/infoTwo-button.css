@@ -1,0 +1,23 @@
+.info-two__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ 
+ .info-two__button button {
+     background-color: white;
+     border-radius: 40px;
+     border: none;
+     color: #2ebaef;
+     height: 2.1875rem;
+     width: 10rem;  
+ }
+ 
+ .info-two__button button:hover {
+     cursor: pointer;
+ }
+ 
+ .info-two__button button:focus {
+     outline: none;
+ }
+ 

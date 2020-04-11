@@ -1,0 +1,10 @@
+.container-info-two {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    line-height: 1.5;
+    width: 25rem;
+}
+
+

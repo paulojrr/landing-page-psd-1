@@ -1,0 +1,8 @@
+.container-info-one {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    line-height: 1.5;
+    width: 25rem;
+}
