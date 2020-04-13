@@ -1,0 +1,18 @@
+.wrapper-contact {
+    background: url(/assets/img/contact/bg-contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.wrapper-contact:hover {
+    background: rgba(0, 0, 0, .8)
+        url(/assets/img/contact/bg-contact.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 3s;     
+}

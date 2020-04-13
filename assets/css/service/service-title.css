@@ -1,4 +1,5 @@
-.service__title {
+.service__OurTitle{
+    color: black;
     font-size: 2.1875rem;
     text-align: center;
 }

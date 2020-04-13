@@ -2,7 +2,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: url(/assets/img/bg-portfolio.png);
-    width: 50%;
+    background-image: url(/assets/img/bg-portfolio.png);
     height: 25rem;
+    width: 50%;
 }

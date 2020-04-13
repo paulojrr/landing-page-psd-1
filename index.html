@@ -57,7 +57,23 @@
     <link rel="stylesheet" href="/assets/css/team/profile-title.css">
     <link rel="stylesheet" href="/assets/css/team/profile-text.css">
     <link rel="stylesheet" href="/assets/css/team/profile-button.css">
-
+    <link rel="stylesheet" href="assets/css/contact/wrapper-contact.css">
+    <link rel="stylesheet" href="assets/css/contact/contact.css">
+    <link rel="stylesheet" href="assets/css/contact/address-title.css">
+    <link rel="stylesheet" href="assets/css/contact/addressInfo-text.css">
+    <link rel="stylesheet" href="assets/css/contact/addressInfo-phone.css">
+    <link rel="stylesheet" href="assets/css/contact/addressInfo-email.css">
+    <link rel="stylesheet" href="assets/css/contact/contact-media.css">
+    <link rel="stylesheet" href="assets/css/contact/media.css">
+    <link rel="stylesheet" href="assets/css/contact/media-link.css">
+    <link rel="stylesheet" href="assets/css/contact/media-image.css">
+    <link rel="stylesheet" href="assets/css/contact/contact-form.css">
+    <link rel="stylesheet" href="assets/css/contact/contact-button.css">
+    <link rel="stylesheet" href="assets/css/footer/wrapper-footer.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+    <link rel="stylesheet" href="assets/css/footer/nav-item.css">
+    <link rel="stylesheet" href="assets/css/footer/nav-link.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-copyright.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Lorem</title>
@@ -65,7 +81,7 @@
 
 <body>
     <!-- Start home page -->
-    <div class="wrapper-home" id="home">
+    <section class="wrapper-home" id="home">
         <!-- Start header -->
         <header class="header">
             <h1 class="header__logo">Lorem</h1>
@@ -89,13 +105,13 @@
             </section>
         </main>
         <!-- End main-->
-    </div>
+    </section>
     <!-- End home page -->
 
     <!-- Start services page -->
     <section class="wrapper-service" id="services">
 
-        <h2 class="service__title">Our services</h2>
+        <h2 class="service__OurTitle">Our services</h2>
         <!-- line -->
         <hr class="service__line">
 
@@ -261,65 +277,64 @@
     <!-- End team page -->
 
     <!-- Start contact page -->
-    <!-- <div class="wrapper-contact " id="contact">
+    <section class="wrapper-contact " id="contact">
         <div class="contact">
-            <div class="address">
-                <h2>Contact with us</h2>
+            <div class="contact__address">
+                <h2 class="address__title">Contact with us</h2>
 
-                <div class="fone-email">
-                    <p>Loremipsum Street 15/18 / Kasicen. Russia</p>
-                    <h4>Phone: <span class="blue">(+55) 9954 9563</span></h4>
-                    <h4>E-mail: <span class="blue">contact@contact.com</span></h4>
+                <div class="addressInfo">
+                    <p class="addressInfo__text">Loremipsum Street 15/18 / Kasicen. Russia</p>
+                    <p class="addressInfo__phone">Phone: <span>(+55) 9954 9563</span></p>
+                    <p class="addressInfo__email">E-mail: <span>contact@contact.com</span></p>
                 </div>
             </div>
 
-            <div class="social-media">
-                <div class="twitter">
-                    <a href="#"><img src="./img/contact-twitter.png" alt="link twitter"></a>
+            <div class="contact__media">
+                <div class="media media-twitter">
+                    <a class="media__link" href="#"><img class="media__image" src="assets/img/contact/contact-twitter.png" alt="Logo twitter"></a>
                 </div>
-                <div class="facebook">
-                    <a href="#"><img src="./img/contact-face.png" alt="link facebook"></a>
+                <div class="media media-facebook">
+                    <a class="media__link" href="#"><img class="media__image" src="assets/img/contact/contact-facebook.png" alt="Logo facebook"></a>
                 </div>
-                <div class="pinterest">
-                    <a href="#"><img src="./img/contact-pinterest.png" alt="link pinterest"></a>
+                <div class="media media-pinterest">
+                    <a class="media__link" href="#"><img class="media__image" src="assets/img/contact/contact-pinterest.png" alt="Logo pinterest"></a>
                 </div>
-                <div class="google">
-                    <a href="#"><img src="./img/contact-google.png" alt="link google"></a>
+                <div class="media media-google">
+                    <a class="media__link" href="#"><img class="media__image" src="assets/img/contact/contact-google.png" alt="Logo google"></a>
                 </div>
-                <div class="email">
-                    <a href="#"><img src="./img/contact-email.png" alt="link email"></a>
+                <div class="media media-email">
+                    <a class="media__link" href="#"><img class="media__image" src="assets/img/contact/contact-email.png" alt="Logo email"></a>
                 </div>
             </div>
         </div>
 
-        <form class="form">
+        <form class="contact__form">
             <input class="input" type="text" name="name" placeholder="Your Name">
             <input type="email" name="email" placeholder="Your e-mail address">
-            <textarea name="text" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="text" cols="54.5" rows="10" placeholder="Your Message"></textarea>
 
-            <button class="button-form">Send message</button>
-
+            <button class="contact__button">Send message</button>
         </form>
-    </div> -->
+    </section>
     <!-- End contact page -->
 
     <!-- Start footer page -->
-    <!-- <div class="wrapper-footer">
-        <div class="container-footer">
-            <div class="nav-footer">
-                <ul>
-                    <li><a href="#home">Homepage</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#team">About us</a></li>
-                    <li><a href="#contact">Contact</a></li>
+    <section class="wrapper-footer">
+        <div class="footer">
+            <div class="footer__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#home">Homepage</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#team">About us</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
                 </ul>
             </div>
 
-            <div class="copyright">
+            <div class="footer__copyright">
                 <p>Copyright&copy2020. All rights reserved</p>
             </div>
         </div>
-    </div> -->
+    </section>
     <!-- End footer page -->
 </body>
 

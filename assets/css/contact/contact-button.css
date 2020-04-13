@@ -1,0 +1,24 @@
+.contact__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+ }
+ 
+ .contact__button {
+     background-color: #2ebaef;
+     border-radius: 40px;
+     border: none;
+     color: white;
+     height: 2.1875rem;
+     width: 10rem;  
+ }
+ 
+ .contact__button:hover {
+     cursor: pointer;
+ }
+ 
+ .contact__button:focus {
+     outline: none;
+ }
+ 
+ 

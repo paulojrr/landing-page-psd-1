@@ -1,0 +1,9 @@
+.addressInfo__email {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 500;
+}
+
+.addressInfo__email span {
+    color: #2EBAEF;
+}

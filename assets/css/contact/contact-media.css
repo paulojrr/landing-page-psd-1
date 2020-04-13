@@ -1,0 +1,4 @@
+.contact__media {
+    display: flex;
+    justify-content: space-between;
+}
