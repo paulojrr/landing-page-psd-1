@@ -1,0 +1,23 @@
+.profile__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10.3125rem;
+    width: 12.5rem;
+}
+
+.profile__image--jhohn {
+    background-image: url(/assets/img/team/profile-jhohn.png);
+}
+
+.profile__image--paul {
+    background-image: url(/assets/img/team/profile-paul.png);
+}
+
+.profile__image--emilly {
+    background-image: url(/assets/img/team/profile-emilly.png);
+}
+
+.profile__image--patricia {
+    background-image: url(/assets/img/team/profile-patricia.png);
+}

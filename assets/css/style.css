@@ -13,7 +13,7 @@
 
 /* Start third service style */
     /* container-top */
-.container-service-three {
+/* .container-service-three {
     height: 600px;
     width: 100%;
 }
@@ -58,7 +58,7 @@
     /* Start service bootom */
 
 
-.bottom-box {
+/* .bottom-box {
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -94,7 +94,7 @@
 /* End third service style */
 
 /* Start team style */
-.wrapper-team {
+/* .wrapper-team {
     height: 500px;
     width: 100%;
     display: flex;
@@ -147,12 +147,12 @@
 .profile-img img {
     height: 150px;
     width: 150px;
-}
+} */
 /* End team style */
 
 /* Start contact style */
     /* Start Address style*/
-.wrapper-contact {
+/* .wrapper-contact {
     height: 500px;
     width: 100%;
     display: flex;
@@ -240,11 +240,11 @@
     width: 250px;
     display: flex;
     justify-content: space-between;
-}
+} */
     /* End Address style*/
 
     /* Start form style */
-.form input{
+/* .form input{
     width: 350px;
     height: 30px;
     margin: 10px 0 10px 0;
@@ -290,19 +290,19 @@
         url(../img/bg-contact.png);
         background-blend-mode: darken;
         background-size: cover;
-}
-
+} */
+/* 
 .button-form:focus {
     outline: none;
 }
 .button-form:hover {
     cursor: pointer;
-}
+} */
     /* End form style */
 /* End contact style */
 
 /* Start footer style */
-.wrapper-footer {
+/* .wrapper-footer {
     height: 100px;
     width: 100%;
     background-color: black;
@@ -332,5 +332,5 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 12px;
-}
+} */
 /* End footer style */

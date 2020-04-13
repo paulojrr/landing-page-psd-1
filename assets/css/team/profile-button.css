@@ -1,0 +1,24 @@
+.profile__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ 
+ .profile__button {
+     background-color: #2ebaef;
+     border-radius: 40px;
+     border: none;
+     color: white;
+     height: 2.1875rem;
+     width: 10rem;  
+ }
+ 
+ .profile__button:hover {
+     cursor: pointer;
+ }
+ 
+ .profile__button:focus {
+     outline: none;
+ }
+ 
+ 

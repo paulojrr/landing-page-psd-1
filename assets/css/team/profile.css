@@ -1,0 +1,7 @@
+.profile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 21.875rem;
+    width: 12.5rem;
+}
