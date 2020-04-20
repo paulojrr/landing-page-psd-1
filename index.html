@@ -68,13 +68,21 @@
     <link rel="stylesheet" href="assets/css/contact/media-link.css">
     <link rel="stylesheet" href="assets/css/contact/media-image.css">
     <link rel="stylesheet" href="assets/css/contact/contact-form.css">
+
+
     <link rel="stylesheet" href="assets/css/contact/contact-button.css">
     <link rel="stylesheet" href="assets/css/footer/wrapper-footer.css">
     <link rel="stylesheet" href="assets/css/footer/footer.css">
-    <link rel="stylesheet" href="assets/css/footer/nav-item.css">
-    <link rel="stylesheet" href="assets/css/footer/nav-link.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-nav.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-list.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-item.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-link.css">
+    
     <link rel="stylesheet" href="assets/css/footer/footer-copyright.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-query/906px-query.css">
+    <link rel="stylesheet" href="assets/css/media-query/720px-query.css">
+    <link rel="stylesheet" href="assets/css/media-query/630px-query.css">
+    <link rel="stylesheet" href="assets/css/media-query/360px-query.css"> 
 
     <title>Lorem</title>
 </head>
@@ -85,14 +93,25 @@
         <!-- Start header -->
         <header class="header">
             <h1 class="header__logo">Lorem</h1>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a class="nav__link" href="#home">Homepage</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#team">About us</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#contact">Contact us</a></li>
-                </ul>
-            </nav>
+
+            <div class="menu-section">
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#home">Homepage</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#team">About us</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#contact">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
         </header>
         <!-- End header -->
 
@@ -291,19 +310,24 @@
 
             <div class="contact__media">
                 <div class="media media-twitter">
-                    <a class="media__link" href="#"><img class="media__image" src="assets/img/contact/contact-twitter.png" alt="Logo twitter"></a>
+                    <a class="media__link" href="#"><img class="media__image"
+                            src="assets/img/contact/contact-twitter.png" alt="Logo twitter"></a>
                 </div>
                 <div class="media media-facebook">
-                    <a class="media__link" href="#"><img class="media__image" src="assets/img/contact/contact-facebook.png" alt="Logo facebook"></a>
+                    <a class="media__link" href="#"><img class="media__image"
+                            src="assets/img/contact/contact-facebook.png" alt="Logo facebook"></a>
                 </div>
                 <div class="media media-pinterest">
-                    <a class="media__link" href="#"><img class="media__image" src="assets/img/contact/contact-pinterest.png" alt="Logo pinterest"></a>
+                    <a class="media__link" href="#"><img class="media__image"
+                            src="assets/img/contact/contact-pinterestt.png" alt="Logo pinterest"></a>
                 </div>
                 <div class="media media-google">
-                    <a class="media__link" href="#"><img class="media__image" src="assets/img/contact/contact-google.png" alt="Logo google"></a>
+                    <a class="media__link" href="#"><img class="media__image"
+                            src="assets/img/contact/contact-google.png" alt="Logo google"></a>
                 </div>
                 <div class="media media-email">
-                    <a class="media__link" href="#"><img class="media__image" src="assets/img/contact/contact-email.png" alt="Logo email"></a>
+                    <a class="media__link" href="#"><img class="media__image" src="assets/img/contact/contact-email.png"
+                            alt="Logo email"></a>
                 </div>
             </div>
         </div>
@@ -322,11 +346,11 @@
     <section class="wrapper-footer">
         <div class="footer">
             <div class="footer__nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a class="nav__link" href="#home">Homepage</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#team">About us</a></li>
-                    <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+                <ul class="footer__list">
+                    <li class="footer__item"><a class="footer__link" href="#home">Homepage</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#services">Services</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#team">About us</a></li>
+                    <li class="footer__item"><a class="footer__link" href="#contact">Contact</a></li>
                 </ul>
             </div>
 
@@ -336,6 +360,7 @@
         </div>
     </section>
     <!-- End footer page -->
+    <script src="assets/js/menu.js"></script>
 </body>
 
 </html>

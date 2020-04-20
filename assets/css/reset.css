@@ -1,9 +1,12 @@
-html {
+html, body {
 	font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    height: 100%;
     width: 100%;
+    
+    
+    
 }
+
 
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -22,3 +25,5 @@ p {
 ul {
     list-style-type: none;
 }
+
+

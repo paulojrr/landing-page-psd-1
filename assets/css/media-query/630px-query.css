@@ -1,0 +1,45 @@
+@media (max-width: 630px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+    .banner {
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .info-one__image {
+        display: none;
+    }
+    .wrapper-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-info-one, .container-info-two {
+        width: 30rem;
+        align-self: center;
+    }
+    .info-two__title {
+        color: black
+    }
+    .wrapper-team  {
+        height: 100%;
+    }
+    .team__profile {
+        flex-wrap: wrap;
+    }
+    .profile {
+        margin-bottom: 10px;
+    }
+    .info__image {
+        display: none;
+    }
+    .info__description {
+        margin: 0;
+    }
+    .portfolio-info {
+        justify-content: center;
+        align-items: center;
+    }
+}
+    

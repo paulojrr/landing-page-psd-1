@@ -1,0 +1,38 @@
+@media (max-width: 906px) {
+    .container-description {
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .description {
+        height: 100%;
+    }
+    html {
+        font-size: 80%;
+    }
+    .info-one__image img {
+        height: 100%;
+        width: 80%;
+    }
+    .main {
+        height: 100vh;
+     }
+    .wrapper-container-description {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .wrapper-contact  {
+        height: 60vh;
+    }
+    .wrapper-home {
+        height: 100vh;
+    }
+    .wrapper-info {
+        height: 87vh;
+    }
+}
+    
+    
+    
+    
+

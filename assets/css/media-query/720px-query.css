@@ -1,0 +1,41 @@
+@media (max-width: 720px) {
+    .contact {
+        width: 400px;
+    }
+    .contact__button {
+        margin-bottom: 20px;
+    }
+    .contact__form {
+        margin-top: 30px;
+        width: 400px;
+    }
+    .contact__form input {
+        height: 40px;
+    }
+    .contact__form input, .contact__form textarea  {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    html {
+        font-size: 70%;
+    }
+    .wrapper-contact  {
+        align-items: center;                                                       
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+    }
+    .wrapper-contact:hover {
+        background-position: center;
+    }
+}
+
+
+
+
+
+
+
+
